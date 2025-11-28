@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">TravelExplorer</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tips">Travel Tips</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Explore The World</h1>
+        <p>Discover beautiful places and plan your next adventure.</p>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search destinations..." />
+            <button onclick="searchDestination()">Search</button>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations" id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="card-list" id="dest-list">
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=1" alt="Paris">
+                <h3>Paris</h3>
+                <p>The city of love and lights.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=2" alt="Tokyo">
+                <h3>Tokyo</h3>
+                <p>A mix of tradition and innovation.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=3" alt="New York">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=4" alt="Sydney">
+                <h3>Sydney</h3>
+                <p>Famous for its beautiful harbour and Opera House.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=5" alt="Rome">
+                <h3>Rome</h3>
+                <p>Historic city with ancient ruins and culture.</p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/300/200?random=6" alt="Cairo">
+                <h3>Cairo</h3>
+                <p>Gateway to the Pyramids and rich history.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About TravelExplorer</h2>
+        <p>
+            TravelExplorer is your ultimate companion for discovering new destinations. 
+            We provide guides, tips, and inspiration to make your travel experience unforgettable.
+        </p>
+        <img src="https://picsum.photos/800/300?travel" alt="Travel">
+    </section>
+
+    <!-- Travel Tips Section -->
+    <section class="tips" id="tips">
+        <h2>Travel Tips</h2>
+        <div class="tip-cards">
+            <div class="tip-card">
+                <h3>Pack Smart</h3>
+                <p>Bring essentials only. Roll your clothes to save space.</p>
+            </div>
+            <div class="tip-card">
+                <h3>Plan Ahead</h3>
+                <p>Research destinations, check weather, and book accommodations early.</p>
+            </div>
+            <div class="tip-card">
+                <h3>Stay Safe</h3>
+                <p>Keep copies of documents, avoid risky areas, and respect local laws.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TravelExplorer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
